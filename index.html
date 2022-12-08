@@ -4,8 +4,148 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>CV Mikhail Ponomarev</title>
 </head>
 <body>
+	<header class="header">
+		<div class="header__container container">
+			<nav class="nav">
+				<ul class="nav__list flex list-reset">
+					<li class="nav__item">
+						<a href="#" class="nav__link">About me</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Skills</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Code</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Corses</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Education</a>
+					</li>
+					<li class="nav__item">
+						<a href="#" class="nav__link">Contacts</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main class="main container">
+		<section class="hero">
+			<div class="hero__container">
+				<h1 class="hero__title">Mikhail Ponomarev</h1>
+				<img class="hero__img" src="./assets/img/profile.jpg" alt="Persona photo">
+				<h3 class="hero__descr">Junior front-end developer</h3>
+			</div>
+		</section>
+
+		<section class="about">
+			<h2 class="about__title">About me</h2>
+			<p class="about__descr">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, voluptate laborum molestiae recusandae fugit itaque tenetur magnam explicabo accusamus debitis velit nobis perspiciatis! Sint vitae ducimus voluptatem asperiores molestiae expedita mollitia hic tempore, minima cum. Aliquam dolor, repellendus, sequi sunt temporibus aliquid possimus voluptas iste totam impedit corrupti dolore necessitatibus. Molestiae asperiores dolore enim numquam tempore facilis fugit eius voluptates et minus, eligendi mollitia quo qui cumque perferendis quos? Similique praesentium sapiente laudantium quibusdam sit, eos odio accusantium veritatis voluptas numquam, dignissimos officia voluptates atque quam et necessitatibus exercitationem dolores esse quae beatae laborum possimus sunt? Rem reprehenderit odio cum porro repellendus reiciendis modi tenetur, voluptates, et nihil, adipisci expedita fugiat veritatis. Incidunt illo, a nihil, eum ad in hic non mollitia recusandae veniam dicta, repellendus omnis distinctio nobis optio eaque ullam aut id laboriosam exercitationem eius iste quo quas tenetur! Minus sint quibusdam et assumenda distinctio dolorem possimus quaerat nobis natus? Nulla unde neque laudantium obcaecati ducimus architecto et, porro, fugit quisquam quo eum, voluptatum ad quibusdam impedit voluptates similique veritatis fugiat odit temporibus adipisci? Quae amet quas veniam natus facilis et error commodi nesciunt minima perspiciatis. Optio facilis ducimus labore corporis? Nemo nostrum maxime error id qui. Eveniet!
+			</p>
+		</section>
+
+		<section class="skills">
+			<h2 class="skills__title">Skills</h2>
+				<ul class="skills__list list-reset">
+					<li class="skills__item">
+						Web-development:
+						<span>HTML5, CSS3, JavaScript</span>
+					</li>
+					<li class="skills__item">
+						Version control:
+						<span>GIT, GitHub</span>
+					</li>
+					<li class="skills__item">
+						Graphics:
+						<span>Figma, Adobe Illustrator</span>
+					</li>
+					<li class="skills__item">
+						Language:
+						<span>English (B1 - Intermediate)</span>
+					</li>
+				</ul>
+		</section>
+
+		<section class="code">
+			<h2 class="code__title">Code</h2>
+			<pre class="code__example">
+				<code>
+					document.addEventListener("DOMContentLoaded", function() {
+					document.getElementById("burger").addEventListener("click", function() {
+					  document.querySelector("header").classList.toggle("open")
+					})
+				  })</code>
+			</pre>
+		</section>
+
+		<section class="courses">
+			<h2 class="courses__title">Courses</h2>
+			<ul class="courses__list list-reset">
+				<li class="courses__item">
+					Skillbox -
+					<span>Profession Web-development</span>
+				</li>
+				<li class="courses__item">
+					GARAEVSCHOOL -
+					<span>Mr. Taplink</span>
+				</li>
+				<li class="courses__item">
+					Webdesign-master -
+					<span>Jedi layout №8</span>
+				</li>
+			</ul>
+		</section>
+
+		<section class="education">
+			<h2 class="education__title">Education</h2>
+			<p class="education__descr">
+				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis maiores aperiam dicta est labore soluta eum nihil ullam earum molestias ea, vero eos quam dolores, laborum expedita deserunt voluptatum amet pariatur. In earum laudantium a ipsum tempora dolore nemo explicabo vero facere. In cumque eaque ex assumenda debitis fugiat nisi.
+			</p>
+
+		</section>
+
+		<section class="contacts">
+			<h2 class="contacts__title">Contacts</h2>
+			<ul class="contacts__list list-reset">
+				<li class="contacts__item">
+					Saint Petersburg, Russia
+				</li>
+				<li class="contacts__item">
+					E-mail:
+					<a href="mailto:maykas91@gmail.com" title="email">maykas91@gmail.com</a>
+				</li>
+				<li class="contacts__item">
+					GitHub:
+					<a href="https://github.com/JLosh91" title="github">JLosh91</a>
+				</li>
+				<li class="contacts__item">
+					Telegram:
+					<a href="https://t.me/mi4ell" title="telegram">@mi4ell</a>
+				</li>
+				<li class="contacts__item">
+					Discord:
+					<a href="https://discordapp.com/users/238472340818755584/" title="discord">mi4ell#6677</a>
+				</li>
+			</ul>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="footer__container container">
+			<div class="footer__left">
+				<p>© 2022</p>
+				<a class="footer__link" href="https://github.com/JLosh91">JLosh91</a>
+			</div>
+			<a class="footer__logo" href="https://rs.school/js/"></a>
+		</div>
+	</footer>
 </body>
 </html>

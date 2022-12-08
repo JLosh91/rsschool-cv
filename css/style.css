@@ -87,7 +87,7 @@ body {
     background-color: rgb(118, 162, 245);
     padding: 15px 0;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .nav {
@@ -113,7 +113,7 @@ body {
 /*hero*/
 
 .hero {
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 
 .hero__container {
@@ -156,4 +156,28 @@ body {
 .hero__img {
     width: 350px;
     height: 250px;
+}
+
+/*about*/
+
+.about {
+    margin-bottom: 80px;
+}
+
+.about__title {
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: rgb(7, 45, 116);
+}
+
+.about__descr {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2;
+    color: rgb(7, 45, 116);
 }

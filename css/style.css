@@ -282,3 +282,32 @@ body {
     letter-spacing: 10px;
     color: rgb(7, 45, 116);
 }
+
+.courses__item {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2;
+    color: rgb(7, 45, 116);
+}
+
+.courses__item span {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 2;
+    color: rgb(7, 45, 116);
+}
+
+.courses__item-icon {
+    transform: translateY(1.5px);
+    width: 18px;
+    height: 18px;
+}
+
+.courses__item-icon path {
+    fill: rgb(7, 45, 116);
+}
+
+.courses__item:not(:last-child) {
+    margin-bottom: 10px;
+}

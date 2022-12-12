@@ -84,6 +84,7 @@ body {
 /*header*/
 
 .header {
+    width: 100%;
     background-color: rgb(118, 162, 245);
     padding: 15px 0;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -113,20 +114,18 @@ body {
 /*hero&contacts*/
 
 .hero__contacts {
-    justify-content: space-around;
+    width: 100%;
+    justify-content: space-between;
     flex-wrap: nowrap;
-    align-items: flex-start;
+    align-items: center;
+    margin: 0 auto;
     margin-bottom: 80px;
-    border-top: 3px solid rgb(118, 162, 245);
-    border-bottom: 3px solid rgb(118, 162, 245);
-    border-radius: 15px;
     padding: 10px 0;
 }
 
 /*hero*/
 
 .hero__container {
-    width: 100%;
     justify-content: center;
 }
 
@@ -157,11 +156,15 @@ body {
 }
 
 .hero__img {
-    width: 350px;
-    height: 250px;
+    max-width: 350px;
+    max-height: 250px;
 }
 
 /*contacts*/
+
+.contacts {
+    width: 33.3%;
+}
 
 .contacts__title {
     margin: 0;
@@ -200,6 +203,7 @@ body {
 /*about*/
 
 .about {
+    width: 100%;
     margin-bottom: 80px;
 }
 
@@ -224,13 +228,19 @@ body {
 /*skills&code*/
 
 .skills__code {
+    width: 100%;
     justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    margin: 0 auto;
     margin-bottom: 80px;
 }
 
 /*skills*/
+
+.skills {
+    min-width: 50%;
+}
 
 .skills__title {
     margin: 0;
@@ -279,6 +289,10 @@ body {
 }
 /*code*/
 
+.code {
+    min-width: 50%;
+}
+
 .code__title {
     margin: 0;
     margin-bottom: 36px;
@@ -310,13 +324,19 @@ body {
 /*courses&projects*/
 
 .courses__projects {
-    justify-content: baseline;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    margin: 0 auto;
     margin-bottom: 80px;
 }
 
 /*courses*/
+
+.courses {
+    min-width: 50%;
+}
 
 
 
@@ -362,7 +382,7 @@ body {
 /*projects*/
 
 .projects {
-    padding-left: 354px;
+    min-width: 50%;
 }
 
 .projects__title {
@@ -385,16 +405,18 @@ body {
 /*education&english*/
 
 .education__english {
-    justify-content: baseline;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    margin: 0 auto;
     margin-bottom: 80px;
 }
 
 /*education*/
 
 .education {
-    max-width: 475px;
+    min-width: 50%;
 }
 
 .education__title {
@@ -418,7 +440,7 @@ body {
 /*english*/
 
 .english {
-    padding-left: 312px;
+    min-width: 50%;
 }
 
 .english__title {
@@ -437,4 +459,43 @@ body {
     font-weight: 400;
     line-height: 2;
     color: rgb(7, 45, 116);
+}
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    background-color: rgb(118, 162, 245);
+    padding: 30px 0;
+}
+
+.footer__container {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer__left p {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: azure;
+}
+
+.footer__link {
+    padding: 0 15px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: azure;
+}
+
+.footer__logo {
+    width: 121px;
+    height: 45px;
+    background-image: url(../assets/img/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }

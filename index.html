@@ -14,28 +14,28 @@
 			<nav class="nav">
 				<ul class="nav__list flex list-reset">
 					<li class="nav__item">
-						<a href="#" class="nav__link">Summary</a>
+						<a href="#about" class="nav__link">Summary</a>
 					</li>
 					<li class="nav__item">
-						<a href="#" class="nav__link">Skills</a>
+						<a href="#skills" class="nav__link">Skills</a>
 					</li>
 					<li class="nav__item">
-						<a href="#" class="nav__link">Code</a>
+						<a href="#code" class="nav__link">Code</a>
 					</li>
 					<li class="nav__item">
-						<a href="#" class="nav__link">Courses</a>
+						<a href="#courses" class="nav__link">Courses</a>
 					</li>
 					<li class="nav__item">
-						<a href="#" class="nav__link">Projects</a>
+						<a href="#projects" class="nav__link">Projects</a>
 					</li>
 					<li class="nav__item">
-						<a href="#" class="nav__link">Education</a>
+						<a href="#education" class="nav__link">Education</a>
 					</li>
 					<li class="nav__item">
-						<a href="#" class="nav__link">Contacts</a>
+						<a href="#contacts" class="nav__link">Contacts</a>
 					</li>
 					<li class="nav__item">
-						<a href="#" class="nav__link">English</a>
+						<a href="#english" class="nav__link">English</a>
 					</li>
 				</ul>
 			</nav>
@@ -43,8 +43,8 @@
 	</header>
 
 	<main class="main container">
-		<article class="hero__contacts flex">
-			<section class="hero">
+
+			<section id="hero" class="hero">
 				<div class="hero__container flex">
 					<div class="hero__text flex">
 						<h1 class="hero__title">Mikhail Ponomarev</h1>
@@ -54,7 +54,9 @@
 				</div>
 			</section>
 	
-			<section class="contacts">
+		<article class="contacts__about flex">
+			<h2 class="contacts__about-title">Contacts</h2>
+			<section id="contacts" class="contacts">
 				<h2 class="contacts__title">Contacts</h2>
 				<ul class="contacts__list list-reset">
 					<li class="contacts__item">
@@ -79,18 +81,19 @@
 					</li>
 				</ul>
 			</section>
-		</article>
 
-		<section class="about">
+		<section id="about" class="about">
 			<h2 class="about__title">Summary</h2>
 			<p class="about__descr">
 				I&nbsp;was a&nbsp;dancer in&nbsp;the past, but now I&rsquo;m learning programming. All my&nbsp;adult life&nbsp;I wanted to&nbsp;program, develop websites, applications, but only by&nbsp;the age of&nbsp;31&nbsp;I began to&nbsp;realize my&nbsp;wishes.
 				And so&nbsp;I present myself to&nbsp;you as&nbsp;junior&nbsp;front-end development. Now I&nbsp;am working and studying in&nbsp;parallel. He&nbsp;took various courses in&nbsp;design, web development. My&nbsp;goal is&nbsp;to&nbsp;study fully frontend development at&nbsp;a&nbsp;good level. I&nbsp;will be&nbsp;happy to&nbsp;join the creation of&nbsp;open source projects. I&nbsp;would like to&nbsp;work under the guidance of&nbsp;an&nbsp;experienced developer to&nbsp;gain hands-on experience.
 			</p>
 		</section>
+		</article>	
 
 		<article class="skills__code flex">
-			<section class="skills">
+			<h2 class="skills__code-title">Skills</h2>
+			<section id="skills" class="skills">
 				<h2 class="skills__title">Skills</h2>
 					<ul class="skills__list flex list-reset">
 						<li class="skills__item">
@@ -117,7 +120,7 @@
 					</ul>
 			</section>
 	
-			<section class="code">
+			<section id="code" class="code">
 				<h2 class="code__title">Code</h2>
 				<pre class="code__example">
 					<code>
@@ -130,7 +133,8 @@ document.querySelector("header").classList.toggle("open")});});
 		</article>
 
 		<article class="courses__projects flex">
-			<section class="courses">
+			<h2 class="courses__projects-title">Courses</h2>
+			<section id="courses" class="courses">
 				<h2 class="courses__title">Courses</h2>
 				<ul class="courses__list list-reset">
 					<li class="courses__item">
@@ -157,21 +161,22 @@ document.querySelector("header").classList.toggle("open")});});
 				</ul>
 			</section>
 	
-			<section class="projects">
+			<section id="projects" class="projects">
 				<h2 class="projects__title">Projects</h2>
 				<a class="projects__link" href="https://JLosh91.github.io/rsschool-cv/">Curriculum vitae (CV)</a>
 			</section>
 		</article>
 
 		<article class="education__english flex">
-			<section class="education">
+			<h2 class="education__english-title">Education</h2>
+			<section id="education" class="education">
 				<h2 class="education__title">Education</h2>
 				<p class="education__descr">
 					THE ALTAI STATE INSTITUTE OF CULTURE,Barnaul
 				</p>
 			</section>
 	
-			<section class="english">
+			<section  id="english" class="english">
 				<h2 class="english__title">English</h2>
 				<p class="english__descr">B1 - Intermediate</p>
 			</section>
